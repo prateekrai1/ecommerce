@@ -1,0 +1,43 @@
+.discount-banner {
+    background-color: #f44336; /* Red background color */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.discount-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.discount-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.discount-percent{
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+.discount-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #fff;
+    color: #f44336; /* Matching button color with background */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #e0e0e0;
+    color: #f44336; /* Matching button color on hover */
+}

@@ -1,0 +1,15 @@
+.left-options-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.options-list p{
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.options-list p:hover{
+    color: red;
+}

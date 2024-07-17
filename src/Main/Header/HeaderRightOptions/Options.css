@@ -1,0 +1,46 @@
+.options-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.imageOptions-container {
+  text-align: center;
+  margin: 0 10px;
+}
+
+.imageOptions-container img {
+  width: 30px;
+  height: 30px;
+}
+
+.imageOptions-container p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.imageOptions-container p:hover {
+  color: red;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.cart-count{
+  position: absolute;
+  background: rgb(67, 64, 64);
+  top: 31px;
+  left: 110.5rem;
+  color: white;
+  border-radius: 50%; 
+  padding-bottom: 3px;
+  padding-left: 1px;
+  width: 20px;
+  height: 20px;
+  line-height: 23px;
+}
+
+.cartItems{
+  color: red;
+}
+
